@@ -1,0 +1,8 @@
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+  /* أضف الأنماط الأخرى المناسبة للوضع الفاتح هنا */
+}
+body{
+  background-color: red;
+}

@@ -1,0 +1,23 @@
+
+.netWork img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+
+
+
+
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}

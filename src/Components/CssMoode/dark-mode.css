@@ -1,0 +1,8 @@
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+  /* أضف الأنماط الأخرى المناسبة للوضع الداكن هنا */
+}
+body{
+  background-color: black;
+}

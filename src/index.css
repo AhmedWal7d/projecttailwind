@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn{
+  @apply bg-slate-400 text-white px-4 border 
+}
+
+
+/* @media screen(lg){
+  body{
+    color:red
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.itemsidbar{
+  padding: 3px;
+  
+  border-radius: 10px;
+}
+.itemsidbar a{
+  color: black;
+}
+.itemsidbar:hover{
+  background-color: dimgrey;
+  cursor: pointer;
+  color: white !important;
+}
+.itemsidbar:hover a{
+  color: white;
+}
+.d-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.text-color{
+  color: dimgrey;
+}
+.bg-color{
+  background-color: dimgrey !important;
+  color: white !important;
+}
+.bg-color a{
+  color: white;
+}
+.item-navbar{
+  background-color: dimgrey !important;
+  color: white !important;
+  border-radius: 10px;
+}
+.nav-link:hover{
+  background-color: dimgrey !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.font-23{
+  font-size: 23px;
+}
+/* Global Dark Mode Styles */
+/* .dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .navbar {
+  background-color: #444;
+  color: #fff;
+  
+} */
+/* 
+.dark-mode .sidebar {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-mode .nav-link {
+  color: #fff;
+} */
+
+/* Ensure all elements in the dark mode have proper styles */
+/* .dark-mode .dropdown-menu {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark-mode .dropdown-item {
+  color: #fff;
+}
+.bg-sidbar{
+  background-color: light;
+} */
